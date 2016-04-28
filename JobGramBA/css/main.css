@@ -126,6 +126,7 @@ textarea {
     margin-right: auto;
     margin-left: auto;
     background-color: #fff;
+    color: #252e40;
 }
 /*-------------------------- Header ------------------------ */
 .logo {
@@ -165,7 +166,7 @@ h2 {
 }
 /*-------------------------- Requirements ------------------------ */
 .requirmentsWrapper {
-    padding-top: 50px;
+    padding-top: 20px;
 
 }
 .requirements {
@@ -183,15 +184,48 @@ h2 {
     font-size: .75em;
     width: 125px;
     margin-left: 10px;
-    margin-top: 0px;
+    margin-top: -5px;
 }
 
+/*-------------------------------- Size Fixes ----------------------------------*/
 
-
-
-
-
-
+.icsize4 {
+    width: 3em;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.icsize2 {
+    width: 3.75em;
+    padding-left: 5px;
+}
+.icsize8 {
+    width: 3em;
+    padding-left: 15px;
+    padding-right: 1px;
+}
+/*-------------------------------- Footer ----------------------------------*/
+.email {
+    font-size: .75em;
+    color: #e54c3a;
+    text-align: center;
+    background-color: #fff;
+    width: 150px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -8px;
+    margin-bottom: 10px;
+    z-index: 1;
+}
+.Bline {
+    border-top: 2px solid #e54c3a;
+    z-index: 0;
+    margin-top: 450px;
+}
+.footerEmail {
+    display: block;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
