@@ -140,10 +140,11 @@ textarea {
 
 h1 {
     text-align: center;
-    font-size: 1.75em;
+    font-size: 2em;
     margin-bottom: 3px;
     font-family: 'LatoWebMedium' ;
     text-transform: uppercase;
+    letter-spacing: .0625em;
 }
 
 h2 {
